@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import FlightsDetail from './FlightsDetail';
-import './FlightsList.css'
+// import './FlightsList.css'
 
 
 class FlightsList extends Component {
@@ -11,6 +11,9 @@ class FlightsList extends Component {
             return (<FlightsDetail key={flight.FlightNo} flight={flight} ></FlightsDetail>)
 
         })
+    return (
+        <grid>{flightsNodes}</grid>
+    )
         
     }
 }
