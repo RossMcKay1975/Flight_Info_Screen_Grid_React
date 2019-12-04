@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import FlightsDetail from './FlightsDetail';
-// import './FlightsList.css'
+import '../styles/Grid.css' 
 
 
 class FlightsList extends Component {
@@ -12,7 +12,7 @@ class FlightsList extends Component {
 
         })
     return (
-        <grid>{flightsNodes}</grid>
+        <div>{flightsNodes}</div>
     )
         
     }

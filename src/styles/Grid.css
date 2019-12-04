@@ -1,3 +1,33 @@
 .grid-container { 
     display: grid;
+    background-color: #555;
+    color: white;
+    border-color: black;
+    border-bottom-style: inset;
+    border-width: 1px;
+}
+
+.grid-item { 
+    text-align: center;
+    padding: 1px;
+    padding-top: 20px;
+    
+    
+}
+
+.image {
+    grid-column: 3;
+    grid-row: 1
+}
+
+.flightNo { 
+    grid-column: 4;
+    grid-row: 1;
+    text-align: right
+    padding
+}
+
+.time { 
+    grid-column: 1;
+    grid-row: 2
 }
