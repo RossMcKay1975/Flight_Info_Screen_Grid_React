@@ -18,7 +18,7 @@ class FlightsDetail extends Component {
                         <div className="grid-item POC"> {this.props.flight.PortOfCallA} </div>
                         <div className="grid-item status"> {this.props.flight.Status} </div>
                         <div className="grid-item otherInfo"> {this.props.flight.OtherInfo} </div>
-                        <div className="grid-item add"> {this.props.flight.Additional} </div>
+                        {/* <div className="grid-item add"> {this.props.flight.Additional} </div> */}
                 </div>
 
                 </React.Fragment>

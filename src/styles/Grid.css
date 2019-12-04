@@ -16,31 +16,33 @@
 }
 
 .image {
-    grid-column: 4;
+    grid-column: 3 / span 2;
     grid-row: 1;
     align-items: right;
     padding-right: 1px;
-
+    font-size: 20px
 }
 
-.flightNo { 
+/* .flightNo { 
     grid-column: 4;
     grid-row: 1;
     text-align: right;
     padding-right: 10px;
 
-}
+} */
 
 .time { 
     grid-column: 1;
     grid-row: 2;
     font-weight: bold; 
     font-size: 20px;
+
 }
 
 .status { 
     grid-column: 4;
-    grid-row: 2
+    grid-row: 2;
+    color: yellow
 }
 
 .POC { 
@@ -48,6 +50,8 @@
     grid-row: 2;
     font-weight: bold;
     text-align: left;
+    font-size: 20px;
+    
 }
 
 .arrDep { 
@@ -60,7 +64,7 @@
     grid-row: 3;
 }
 
-.add {
+.otherInfo {
     grid-column: 3 / span 2;
     grid-row: 3
 }
