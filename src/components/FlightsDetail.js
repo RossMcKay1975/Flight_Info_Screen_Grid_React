@@ -10,8 +10,8 @@ class FlightsDetail extends Component {
                 <React.Fragment>
                 
                 <div className="grid-container">
-                        <div className="grid-item image"><img src={this.props.flight.Image} alt="airline" />  {this.props.flight.FlightNo}</div>
-                        {/* <div className="grid-item flightNo">  </div> */}
+                        <div className="grid-item flightNo"><img src={this.props.flight.Image} alt="airline" />  
+                                {this.props.flight.FlightNo}</div>
                         <div className="grid-item date"> {this.props.flight.Date} </div>
                         <div className="grid-item time"> {this.props.flight.Time} </div>
                         <div className="grid-item arrDep"> {this.props.flight.ArrDep} </div>

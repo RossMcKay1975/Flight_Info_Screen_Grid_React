@@ -16,7 +16,7 @@ class FlightsContainer extends Component {
                 .then(res => res.json())
                 .then(data => this.setState({flights: data }))
                 .catch(err => console.error)
-        }, 1000);
+        }, 6000);
     }
 
     render(){ 
