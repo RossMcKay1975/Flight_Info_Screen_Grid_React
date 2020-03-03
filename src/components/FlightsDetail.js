@@ -6,7 +6,7 @@ class FlightsDetail extends Component {
     render() {
         if (!this.props.flight) return null;
         return (
-                // <div>This is the grid</div>
+                
                 <React.Fragment>
                 
                 <div className="grid-container">
